@@ -17,7 +17,7 @@ html, body{
 
 
 :root {
-
+    --fonte-titulo: Verdana, Geneva, Tahoma, sans-serif; 
     --fonte-padrao:'Sriracha', cursive;
     --fonte-texto: 'Passion One', cursive;
 
@@ -38,6 +38,7 @@ header{
 
 
 header>h1{
+    font-family: var(--fonte-titulo);
     font-variant: small-caps;
     color: white;
     margin: 30px;
