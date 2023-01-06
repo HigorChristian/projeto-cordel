@@ -90,13 +90,15 @@ section.imagem>p{
     background-image: url(../imagens/background001.jpg);
     background-position: right center; 
     background-attachment: fixed;
+    background-size: cover;
     
 }
 
 #img002{
     background-image: url(../imagens/background002.jpg);
-    background-position: center center; 
+    background-position: right center; 
     background-attachment: fixed;
+    background-size: cover;
 }
 
 footer{
