@@ -10,6 +10,11 @@
     src: url(https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap);
 }
 
+html, body{
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
 
 :root {
 
@@ -28,18 +33,17 @@
 header{
     background-color: black;
     padding: 40px;
+    text-align: center;
 }
 
 
 header>h1{
-    font-family: var(--fonte-padrao);
+    font-variant: small-caps;
     color: white;
-    text-align: center;
-    margin: 10px;
+    margin: 30px;
 }
 
 header>p{
-    text-align: center;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -57,7 +61,7 @@ a:hover{
 main section{
     padding-top: 5vh;
     padding-bottom: 10vh;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     font-family: var(--fonte-texto);
     line-height: 2em;
 }
@@ -75,20 +79,24 @@ section.imagem{
 }
 
 section.imagem>p{
+    width: 500px;
     display: inline-block;
     padding: 5px;
-    background-color: #0000002b;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.54);
+    background-color: #00000057;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.357);
 }
 
 #img001{
     background-image: url(../imagens/background001.jpg);
     background-position: right center; 
+    background-attachment: fixed;
     
 }
 
 #img002{
     background-image: url(../imagens/background002.jpg);
+    background-position: center center; 
+    background-attachment: fixed;
 }
 
 footer{
